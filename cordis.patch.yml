@@ -1,0 +1,7 @@
+# Mriter bundle patch：profile 的 dsh.profile.bundles 列出本包时应用。
+# 停用方式：在你自己的 profile cordis.patch.yml 里加
+#   - id: dsh-mriter
+#     disabled: true
+- insert:
+    - id: dsh-mriter
+      name: "@jojonadam/dsh-mriter"
